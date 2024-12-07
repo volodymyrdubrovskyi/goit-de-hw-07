@@ -6681,3 +6681,923 @@ SyntaxError: invalid syntax
 [2024-12-07T19:15:12.591+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:15:12.591+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-07T19:15:12.608+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:15:12.607+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
 [2024-12-07T19:15:12.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.078 seconds
+[2024-12-07T19:15:43.095+0000] {processor.py:186} INFO - Started process (PID=42210) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:15:43.097+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:15:43.098+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:15:43.098+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:15:43.125+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:15:43.143+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:15:43.143+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:15:43.161+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:15:43.160+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:15:43.180+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.089 seconds
+[2024-12-07T19:15:57.929+0000] {processor.py:186} INFO - Started process (PID=42238) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:15:57.930+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:15:57.931+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:15:57.931+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:15:57.962+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:15:57.982+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:15:57.982+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:15:58.002+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:15:58.002+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:15:58.022+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.098 seconds
+[2024-12-07T19:16:28.335+0000] {processor.py:186} INFO - Started process (PID=42303) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:16:28.336+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:16:28.337+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:16:28.337+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:16:28.357+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:16:28.372+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:16:28.372+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:16:28.391+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:16:28.391+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:16:28.408+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.078 seconds
+[2024-12-07T19:16:58.528+0000] {processor.py:186} INFO - Started process (PID=42366) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:16:58.529+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:16:58.531+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:16:58.530+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:16:58.556+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:16:58.573+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:16:58.572+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:16:58.588+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:16:58.588+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:16:58.604+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.080 seconds
+[2024-12-07T19:17:28.831+0000] {processor.py:186} INFO - Started process (PID=42430) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:17:28.833+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:17:28.835+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:17:28.835+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:17:28.860+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:17:28.878+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:17:28.878+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:17:28.896+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:17:28.896+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:17:28.912+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.087 seconds
+[2024-12-07T19:17:59.123+0000] {processor.py:186} INFO - Started process (PID=42481) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:17:59.124+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:17:59.126+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:17:59.125+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:17:59.147+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:17:59.165+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:17:59.165+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:17:59.181+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:17:59.181+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:17:59.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.078 seconds
+[2024-12-07T19:18:24.093+0000] {processor.py:186} INFO - Started process (PID=42537) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:18:24.094+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:18:24.096+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:18:24.095+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:18:24.136+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:18:24.155+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:18:24.155+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:18:24.173+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:18:24.173+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:18:24.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.107 seconds
+[2024-12-07T19:18:30.277+0000] {processor.py:186} INFO - Started process (PID=42544) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:18:30.278+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:18:30.280+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:18:30.279+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:18:30.313+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:18:30.341+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:18:30.341+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:18:30.373+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:18:30.373+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:18:30.404+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.132 seconds
+[2024-12-07T19:19:01.055+0000] {processor.py:186} INFO - Started process (PID=42606) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:19:01.056+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:19:01.058+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:19:01.057+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:19:01.079+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:19:01.096+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:19:01.096+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:19:01.111+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:19:01.111+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:19:01.128+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.077 seconds
+[2024-12-07T19:19:21.572+0000] {processor.py:186} INFO - Started process (PID=42666) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:19:21.573+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:19:21.575+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:19:21.575+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:19:21.625+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:19:21.643+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:19:21.643+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:19:21.660+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:19:21.660+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:19:21.687+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.121 seconds
+[2024-12-07T19:19:51.889+0000] {processor.py:186} INFO - Started process (PID=42730) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:19:51.890+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:19:51.891+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:19:51.891+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:19:51.922+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:19:51.938+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:19:51.938+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:19:51.954+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:19:51.954+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:19:51.972+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.088 seconds
+[2024-12-07T19:20:22.646+0000] {processor.py:186} INFO - Started process (PID=42794) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:20:22.647+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:20:22.648+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:20:22.648+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:20:22.674+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:20:22.693+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:20:22.693+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:20:22.711+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:20:22.711+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:20:22.729+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.088 seconds
+[2024-12-07T19:20:24.689+0000] {processor.py:186} INFO - Started process (PID=42795) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:20:24.690+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:20:24.692+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:20:24.692+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:20:24.702+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:20:24.702+0000] {dagbag.py:366} INFO - File /opt/airflow/dags/main.py assumed to contain no DAGs. Skipping.
+[2024-12-07T19:20:24.703+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:20:24.713+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.028 seconds
+[2024-12-07T19:20:25.749+0000] {processor.py:186} INFO - Started process (PID=42796) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:20:25.750+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:20:25.751+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:20:25.751+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:20:25.788+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:20:25.807+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:20:25.807+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:20:25.827+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:20:25.827+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:20:25.851+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.106 seconds
+[2024-12-07T19:20:56.536+0000] {processor.py:186} INFO - Started process (PID=42860) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:20:56.537+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:20:56.538+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:20:56.538+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:20:56.566+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:20:56.582+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:20:56.582+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:20:56.598+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:20:56.597+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:20:56.619+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.087 seconds
+[2024-12-07T19:21:06.635+0000] {processor.py:186} INFO - Started process (PID=42875) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:21:06.636+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:21:06.638+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:21:06.637+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:21:06.666+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:21:06.686+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:21:06.686+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:21:06.704+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:21:06.704+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:21:06.722+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.092 seconds
+[2024-12-07T19:21:36.913+0000] {processor.py:186} INFO - Started process (PID=42940) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:21:36.914+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:21:36.915+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:21:36.915+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:21:36.939+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:21:36.955+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:21:36.954+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:21:36.970+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:21:36.970+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:21:36.986+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.077 seconds
+[2024-12-07T19:22:07.132+0000] {processor.py:186} INFO - Started process (PID=43004) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:22:07.133+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:22:07.134+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:22:07.134+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:22:07.154+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:22:07.169+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:22:07.169+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:22:07.185+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:22:07.185+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:22:07.200+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.072 seconds
+[2024-12-07T19:22:37.564+0000] {processor.py:186} INFO - Started process (PID=43068) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:22:37.565+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:22:37.566+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:22:37.566+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:22:37.586+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:22:37.604+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:22:37.603+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:22:37.622+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:22:37.622+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:22:37.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.078 seconds
+[2024-12-07T19:23:07.884+0000] {processor.py:186} INFO - Started process (PID=43132) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:23:07.885+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:23:07.886+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:23:07.886+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:23:07.908+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:23:07.923+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:23:07.923+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:23:07.938+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:23:07.938+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:23:07.956+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.076 seconds
+[2024-12-07T19:23:38.163+0000] {processor.py:186} INFO - Started process (PID=43196) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:23:38.164+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:23:38.165+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:23:38.165+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:23:38.189+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:23:38.208+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:23:38.207+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:23:38.226+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:23:38.225+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:23:38.241+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.082 seconds
+[2024-12-07T19:24:08.544+0000] {processor.py:186} INFO - Started process (PID=43260) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:24:08.545+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:24:08.547+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:24:08.546+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:24:08.567+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:24:08.585+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:24:08.585+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:24:08.603+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:24:08.602+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:24:08.623+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.084 seconds
+[2024-12-07T19:24:38.719+0000] {processor.py:186} INFO - Started process (PID=43323) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:24:38.720+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:24:38.721+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:24:38.721+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:24:38.743+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:24:38.763+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:24:38.763+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:24:38.781+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:24:38.781+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:24:38.801+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.086 seconds
+[2024-12-07T19:25:09.426+0000] {processor.py:186} INFO - Started process (PID=43387) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:25:09.427+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:25:09.429+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:25:09.428+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:25:09.451+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:25:09.468+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:25:09.468+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:25:09.485+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:25:09.485+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:25:09.502+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.080 seconds
+[2024-12-07T19:25:40.113+0000] {processor.py:186} INFO - Started process (PID=43451) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:25:40.114+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:25:40.116+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:25:40.116+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:25:40.146+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:25:40.163+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:25:40.163+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:25:40.179+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:25:40.179+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:25:40.197+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.088 seconds
+[2024-12-07T19:26:10.366+0000] {processor.py:186} INFO - Started process (PID=43515) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:26:10.366+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:26:10.368+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:26:10.368+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:26:10.387+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:26:10.404+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:26:10.404+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:26:10.420+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:26:10.420+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:26:10.436+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.075 seconds
+[2024-12-07T19:26:41.081+0000] {processor.py:186} INFO - Started process (PID=43579) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:26:41.082+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:26:41.083+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:26:41.083+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:26:41.105+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:26:41.120+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:26:41.120+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:26:41.135+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:26:41.135+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:26:41.153+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.076 seconds
+[2024-12-07T19:27:11.384+0000] {processor.py:186} INFO - Started process (PID=43643) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:27:11.385+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:27:11.387+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:27:11.387+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:27:11.413+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:27:11.431+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:27:11.430+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:27:11.448+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:27:11.448+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:27:11.464+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.085 seconds
+[2024-12-07T19:27:34.106+0000] {processor.py:186} INFO - Started process (PID=43694) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:27:34.107+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:27:34.108+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:27:34.108+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:27:34.146+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:27:34.218+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:27:34.217+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:27:34.231+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:27:34.231+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:27:34.260+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.159 seconds
+[2024-12-07T19:27:55.785+0000] {processor.py:186} INFO - Started process (PID=43755) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:27:55.786+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:27:55.788+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:27:55.787+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:27:55.826+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:27:55.836+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:27:55.836+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:27:55.860+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:27:55.860+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:27:55.884+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.104 seconds
+[2024-12-07T19:27:57.090+0000] {processor.py:186} INFO - Started process (PID=43759) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:27:57.092+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:27:57.094+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:27:57.093+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:27:57.130+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:27:57.139+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:27:57.139+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:27:57.156+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:27:57.156+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:27:57.181+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.098 seconds
+[2024-12-07T19:27:58.275+0000] {processor.py:186} INFO - Started process (PID=43760) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:27:58.277+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:27:58.278+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:27:58.278+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:27:58.315+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:27:58.324+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:27:58.324+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:27:58.340+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:27:58.340+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:27:58.362+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.091 seconds
+[2024-12-07T19:28:06.370+0000] {processor.py:186} INFO - Started process (PID=43761) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:28:06.373+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:28:06.374+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:28:06.374+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:28:06.399+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:28:06.514+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:28:06.514+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:28:06.530+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:28:06.530+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:28:06.546+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.182 seconds
+[2024-12-07T19:28:36.682+0000] {processor.py:186} INFO - Started process (PID=43825) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:28:36.683+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:28:36.684+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:28:36.684+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:28:36.707+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:28:36.722+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:28:36.722+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:28:36.738+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:28:36.738+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:28:36.753+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.075 seconds
+[2024-12-07T19:29:06.849+0000] {processor.py:186} INFO - Started process (PID=43890) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:29:06.850+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:29:06.851+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:29:06.850+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:29:06.876+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:29:06.893+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:29:06.893+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:29:06.909+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:29:06.909+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:29:06.926+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.082 seconds
+[2024-12-07T19:29:37.213+0000] {processor.py:186} INFO - Started process (PID=43954) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:29:37.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:29:37.216+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:29:37.215+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:29:37.246+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:29:37.262+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:29:37.262+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:29:37.279+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:29:37.278+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:29:37.296+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.087 seconds
+[2024-12-07T19:30:07.354+0000] {processor.py:186} INFO - Started process (PID=44019) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:30:07.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:30:07.357+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:30:07.356+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:30:07.383+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:30:07.402+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:30:07.401+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:30:07.420+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:30:07.420+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:30:07.437+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.088 seconds
+[2024-12-07T19:30:10.678+0000] {processor.py:186} INFO - Started process (PID=44024) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:30:10.679+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:30:10.680+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:30:10.680+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:30:10.712+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:30:10.734+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:30:10.733+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:30:10.773+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:30:10.772+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:30:10.798+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.125 seconds
+[2024-12-07T19:30:12.109+0000] {processor.py:186} INFO - Started process (PID=44031) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:30:12.110+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:30:12.111+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:30:12.111+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:30:12.155+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:30:12.171+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:30:12.171+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:30:12.188+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:30:12.188+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:30:12.209+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.104 seconds
+[2024-12-07T19:30:18.583+0000] {processor.py:186} INFO - Started process (PID=44044) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:30:18.584+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:30:18.585+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:30:18.585+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:30:18.624+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:30:18.641+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:30:18.640+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:30:18.657+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:30:18.657+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:30:18.680+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.101 seconds
+[2024-12-07T19:30:28.972+0000] {processor.py:186} INFO - Started process (PID=44081) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:30:28.973+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:30:28.974+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:30:28.974+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:30:28.999+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:30:29.020+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:30:29.020+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:30:29.183+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:30:29.183+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:30:29.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.234 seconds
+[2024-12-07T19:30:59.615+0000] {processor.py:186} INFO - Started process (PID=44145) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:30:59.616+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:30:59.617+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:30:59.617+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:30:59.642+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:30:59.659+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:30:59.659+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:30:59.674+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:30:59.674+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:30:59.812+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.202 seconds
+[2024-12-07T19:31:30.296+0000] {processor.py:186} INFO - Started process (PID=44205) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:31:30.297+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:31:30.299+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:31:30.298+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:31:30.321+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:31:30.337+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:31:30.337+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:31:30.354+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:31:30.354+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:31:30.371+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.078 seconds
+[2024-12-07T19:32:00.705+0000] {processor.py:186} INFO - Started process (PID=44262) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:32:00.706+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:32:00.707+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:32:00.707+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:32:00.732+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:32:00.751+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:32:00.751+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:32:00.771+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:32:00.771+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:32:00.793+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.093 seconds
+[2024-12-07T19:32:31.369+0000] {processor.py:186} INFO - Started process (PID=44326) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:32:31.370+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:32:31.371+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:32:31.371+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:32:31.394+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:32:31.520+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:32:31.519+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:32:31.533+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:32:31.533+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:32:31.548+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.184 seconds
+[2024-12-07T19:33:01.765+0000] {processor.py:186} INFO - Started process (PID=44386) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:33:01.766+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:33:01.767+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:33:01.767+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:33:01.793+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:33:01.809+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:33:01.809+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:33:01.949+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:33:01.949+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:33:01.963+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.203 seconds
+[2024-12-07T19:33:32.250+0000] {processor.py:186} INFO - Started process (PID=44450) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:33:32.251+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:33:32.253+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:33:32.252+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:33:32.281+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:33:32.296+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:33:32.296+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:33:32.312+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:33:32.312+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:33:32.330+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.084 seconds
+[2024-12-07T19:34:03.687+0000] {processor.py:186} INFO - Started process (PID=44514) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:34:03.688+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:34:03.689+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:34:03.689+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:34:03.711+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:34:03.728+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:34:03.728+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:34:03.745+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:34:03.745+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:34:03.759+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.076 seconds
+[2024-12-07T19:34:28.199+0000] {processor.py:186} INFO - Started process (PID=44557) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:34:28.200+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:34:28.201+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:34:28.201+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:34:28.234+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:34:28.253+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:34:28.252+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:34:28.269+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:34:28.269+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:34:28.289+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.095 seconds
+[2024-12-07T19:34:30.406+0000] {processor.py:186} INFO - Started process (PID=44561) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:34:30.407+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:34:30.408+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:34:30.407+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:34:30.429+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:34:30.429+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 135
+    [calculate_bronze_task
+     ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-12-07T19:34:30.430+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:34:30.445+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.044 seconds
+[2024-12-07T19:34:33.547+0000] {processor.py:186} INFO - Started process (PID=44563) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:34:33.548+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:34:33.549+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:34:33.549+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:34:33.570+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:34:33.569+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 136
+    calculate_silver_task, calculate_gold_task] >> generate_delay
+IndentationError: unexpected indent
+[2024-12-07T19:34:33.571+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:34:33.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.042 seconds
+[2024-12-07T19:34:36.010+0000] {processor.py:186} INFO - Started process (PID=44600) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:34:36.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:34:36.013+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:34:36.012+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:34:36.037+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:34:36.036+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 136
+    calculate_silver_task, calculate_gold_task] >> generate_delay
+                                              ^
+SyntaxError: unmatched ']'
+[2024-12-07T19:34:36.038+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:34:36.060+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.055 seconds
+[2024-12-07T19:34:40.080+0000] {processor.py:186} INFO - Started process (PID=44601) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:34:40.082+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:34:40.083+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:34:40.083+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:34:40.105+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:34:40.104+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 137
+    calculate_gold_task] >> generate_delay
+                       ^
+SyntaxError: unmatched ']'
+[2024-12-07T19:34:40.106+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:34:40.121+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.045 seconds
+[2024-12-07T19:34:46.467+0000] {processor.py:186} INFO - Started process (PID=44613) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:34:46.469+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:34:46.471+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:34:46.470+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:34:46.507+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:34:46.585+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:34:46.585+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:34:46.600+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:34:46.600+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:34:46.621+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.159 seconds
+[2024-12-07T19:34:53.340+0000] {processor.py:186} INFO - Started process (PID=44626) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:34:53.341+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:34:53.342+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:34:53.342+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:34:53.386+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:34:53.396+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:34:53.395+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:34:53.413+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:34:53.412+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:34:53.435+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.101 seconds
+[2024-12-07T19:34:59.415+0000] {processor.py:186} INFO - Started process (PID=44627) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:34:59.416+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:34:59.418+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:34:59.417+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:34:59.445+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:34:59.454+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:34:59.454+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:34:59.472+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:34:59.472+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:34:59.490+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.079 seconds
+[2024-12-07T19:35:29.577+0000] {processor.py:186} INFO - Started process (PID=44691) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:35:29.578+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:35:29.580+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:35:29.579+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:35:29.604+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:35:29.675+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:35:29.675+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:35:29.688+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:35:29.688+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:35:29.705+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.132 seconds
+[2024-12-07T19:35:53.435+0000] {processor.py:186} INFO - Started process (PID=44755) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:35:53.436+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:35:53.438+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:35:53.438+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:35:53.480+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:35:53.490+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:35:53.489+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:35:53.506+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:35:53.506+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:35:53.529+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.097 seconds
+[2024-12-07T19:36:24.036+0000] {processor.py:186} INFO - Started process (PID=44819) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:36:24.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:36:24.039+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:36:24.039+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:36:24.071+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:36:24.088+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:36:24.088+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:36:24.105+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:36:24.105+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:36:24.123+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.091 seconds
+[2024-12-07T19:36:54.751+0000] {processor.py:186} INFO - Started process (PID=44883) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:36:54.752+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:36:54.754+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:36:54.753+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:36:54.788+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:36:54.805+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:36:54.805+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:36:54.821+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:36:54.821+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:36:54.840+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.093 seconds
+[2024-12-07T19:37:25.584+0000] {processor.py:186} INFO - Started process (PID=44947) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:37:25.585+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:37:25.586+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:37:25.586+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:37:25.611+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:37:25.626+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:37:25.626+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:37:25.641+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:37:25.641+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:37:25.659+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.080 seconds
+[2024-12-07T19:37:55.809+0000] {processor.py:186} INFO - Started process (PID=45011) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:37:55.811+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:37:55.812+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:37:55.812+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:37:55.835+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:37:55.855+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:37:55.855+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:37:55.874+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:37:55.874+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:37:55.895+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.092 seconds
+[2024-12-07T19:38:25.962+0000] {processor.py:186} INFO - Started process (PID=45075) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:38:25.964+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:38:25.965+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:38:25.965+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:38:25.992+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:38:26.011+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:38:26.011+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:38:26.032+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:38:26.031+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:38:26.050+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.093 seconds
+[2024-12-07T19:38:48.163+0000] {processor.py:186} INFO - Started process (PID=45123) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:38:48.164+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:38:48.165+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:38:48.165+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:38:48.209+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:38:48.296+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:38:48.295+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:38:48.311+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:38:48.311+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:38:48.329+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.170 seconds
+[2024-12-07T19:39:18.443+0000] {processor.py:186} INFO - Started process (PID=45188) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:39:18.444+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:39:18.445+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:39:18.445+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:39:18.465+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:39:18.484+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:39:18.483+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:39:18.499+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:39:18.499+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:39:18.515+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.077 seconds
+[2024-12-07T19:39:29.281+0000] {processor.py:186} INFO - Started process (PID=45204) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:39:29.282+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:39:29.283+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:39:29.283+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:39:29.309+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:39:29.324+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:39:29.324+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:39:29.339+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:39:29.339+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:39:29.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.082 seconds
+[2024-12-07T19:40:00.120+0000] {processor.py:186} INFO - Started process (PID=45268) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:40:00.121+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:40:00.122+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:40:00.122+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:40:00.145+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:40:00.160+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:40:00.160+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:40:00.176+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:40:00.175+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:40:00.193+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.078 seconds
+[2024-12-07T19:40:30.801+0000] {processor.py:186} INFO - Started process (PID=45332) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:40:30.802+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:40:30.804+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:40:30.804+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:40:30.828+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:40:30.844+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:40:30.843+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:40:30.859+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:40:30.859+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:40:30.878+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.081 seconds
+[2024-12-07T19:41:01.941+0000] {processor.py:186} INFO - Started process (PID=45396) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:41:01.942+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:41:01.944+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:41:01.944+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:41:01.968+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:41:01.984+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:41:01.984+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:41:01.999+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:41:01.999+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:41:02.014+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.077 seconds
+[2024-12-07T19:41:32.383+0000] {processor.py:186} INFO - Started process (PID=45460) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:41:32.384+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:41:32.385+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:41:32.385+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:41:32.407+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:41:32.422+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:41:32.422+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:41:32.438+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:41:32.438+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:41:32.455+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.076 seconds
+[2024-12-07T19:42:03.315+0000] {processor.py:186} INFO - Started process (PID=45524) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:42:03.317+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:42:03.318+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:42:03.318+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:42:03.341+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:42:03.358+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:42:03.358+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:42:03.373+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:42:03.373+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:42:03.390+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.079 seconds
+[2024-12-07T19:42:34.101+0000] {processor.py:186} INFO - Started process (PID=45589) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:42:34.102+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:42:34.103+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:42:34.103+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:42:34.126+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:42:34.143+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:42:34.143+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:42:34.160+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:42:34.159+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:42:34.178+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.082 seconds
+[2024-12-07T19:43:04.313+0000] {processor.py:186} INFO - Started process (PID=45653) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:43:04.315+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:43:04.316+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:43:04.315+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:43:04.339+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:43:04.355+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:43:04.355+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:43:04.371+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:43:04.371+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:43:04.386+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.077 seconds
+[2024-12-07T19:43:35.311+0000] {processor.py:186} INFO - Started process (PID=45717) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:43:35.312+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:43:35.313+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:43:35.313+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:43:35.335+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:43:35.351+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:43:35.351+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:43:35.366+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:43:35.366+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:43:35.384+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.078 seconds
+[2024-12-07T19:44:05.467+0000] {processor.py:186} INFO - Started process (PID=45781) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:44:05.468+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:44:05.470+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:44:05.469+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:44:05.493+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:44:05.508+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:44:05.508+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:44:05.525+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:44:05.525+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:44:05.538+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.075 seconds
+[2024-12-07T19:44:18.258+0000] {processor.py:186} INFO - Started process (PID=45794) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:44:18.259+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:44:18.260+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:44:18.260+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:44:18.297+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:44:18.375+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:44:18.375+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:44:18.391+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:44:18.391+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:44:18.417+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.164 seconds
+[2024-12-07T19:44:26.359+0000] {processor.py:186} INFO - Started process (PID=45834) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:44:26.360+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:44:26.361+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:44:26.361+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:44:26.384+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:44:26.392+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:44:26.392+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:44:26.409+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:44:26.409+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:44:26.425+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.070 seconds
+[2024-12-07T19:44:56.964+0000] {processor.py:186} INFO - Started process (PID=45898) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:44:56.965+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:44:56.967+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:44:56.966+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:44:56.988+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:44:57.004+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:44:57.003+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:44:57.020+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:44:57.019+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:44:57.036+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.077 seconds
+[2024-12-07T19:45:27.780+0000] {processor.py:186} INFO - Started process (PID=45962) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:45:27.781+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:45:27.783+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:45:27.782+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:45:27.801+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:45:27.816+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:45:27.816+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:45:27.832+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:45:27.832+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:45:27.849+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.073 seconds
+[2024-12-07T19:45:58.478+0000] {processor.py:186} INFO - Started process (PID=46026) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:45:58.479+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:45:58.481+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:45:58.480+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:45:58.507+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:45:58.525+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:45:58.525+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:45:58.544+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:45:58.544+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:45:58.565+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.091 seconds
+[2024-12-07T19:46:28.719+0000] {processor.py:186} INFO - Started process (PID=46090) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:46:28.720+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:46:28.721+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:46:28.721+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:46:28.742+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:46:28.761+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:46:28.761+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:46:28.783+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:46:28.783+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:46:28.802+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.089 seconds
+[2024-12-07T19:46:58.941+0000] {processor.py:186} INFO - Started process (PID=46154) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:46:58.942+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:46:58.943+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:46:58.943+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:46:58.964+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:46:58.982+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:46:58.981+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:46:58.998+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:46:58.998+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:46:59.017+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.080 seconds
+[2024-12-07T19:47:29.219+0000] {processor.py:186} INFO - Started process (PID=46218) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:47:29.220+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:47:29.221+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:47:29.221+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:47:29.244+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:47:29.259+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:47:29.259+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:47:29.274+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:47:29.274+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:47:29.291+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.076 seconds
+[2024-12-07T19:47:59.397+0000] {processor.py:186} INFO - Started process (PID=46282) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:47:59.398+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:47:59.399+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:47:59.399+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:47:59.418+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:47:59.434+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:47:59.434+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:47:59.450+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:47:59.450+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:47:59.467+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.074 seconds
+[2024-12-07T19:48:19.281+0000] {processor.py:186} INFO - Started process (PID=46304) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:48:19.281+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:48:19.283+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:48:19.282+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:48:19.324+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:48:19.347+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:48:19.347+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:48:19.366+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:48:19.365+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:48:19.387+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.111 seconds
+[2024-12-07T19:48:24.454+0000] {processor.py:186} INFO - Started process (PID=46308) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:48:24.456+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:48:24.457+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:48:24.457+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:48:24.489+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:48:24.509+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:48:24.509+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:48:24.527+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:48:24.527+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:48:24.549+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.100 seconds
+[2024-12-07T19:48:54.799+0000] {processor.py:186} INFO - Started process (PID=46372) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:48:54.800+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:48:54.802+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:48:54.802+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:48:54.823+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:48:54.839+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:48:54.839+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:48:54.854+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:48:54.854+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:48:54.872+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.077 seconds
+[2024-12-07T19:49:24.942+0000] {processor.py:186} INFO - Started process (PID=46436) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:49:24.943+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:49:24.945+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:49:24.944+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:49:24.973+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:49:24.990+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:49:24.990+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:49:25.006+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:49:25.006+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:49:25.024+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.087 seconds
+[2024-12-07T19:49:56.042+0000] {processor.py:186} INFO - Started process (PID=46499) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:49:56.043+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:49:56.044+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:49:56.044+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:49:56.066+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:49:56.082+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:49:56.082+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:49:56.097+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:49:56.097+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:49:56.117+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.080 seconds
+[2024-12-07T19:50:26.606+0000] {processor.py:186} INFO - Started process (PID=46563) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:50:26.608+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:50:26.609+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:50:26.609+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:50:26.640+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:50:26.660+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:50:26.660+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:50:26.677+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:50:26.677+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:50:26.692+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.090 seconds
+[2024-12-07T19:50:56.984+0000] {processor.py:186} INFO - Started process (PID=46627) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:50:56.985+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:50:56.986+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:50:56.986+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:50:57.008+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:50:57.023+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:50:57.023+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:50:57.040+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:50:57.040+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:50:57.057+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.078 seconds
+[2024-12-07T19:51:27.684+0000] {processor.py:186} INFO - Started process (PID=46691) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:51:27.685+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:51:27.686+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:51:27.686+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:51:27.712+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:51:27.730+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:51:27.729+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:51:27.747+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:51:27.747+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:51:27.764+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.085 seconds
+[2024-12-07T19:51:57.943+0000] {processor.py:186} INFO - Started process (PID=46755) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:51:57.944+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:51:57.945+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:51:57.945+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:51:57.966+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:51:57.981+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:51:57.980+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:51:57.996+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:51:57.995+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:51:58.014+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.075 seconds
+[2024-12-07T19:52:28.120+0000] {processor.py:186} INFO - Started process (PID=46819) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:52:28.121+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:52:28.123+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:52:28.123+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:52:28.148+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:52:28.168+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:52:28.168+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:52:28.187+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:52:28.186+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:52:28.206+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.091 seconds
+[2024-12-07T19:52:58.493+0000] {processor.py:186} INFO - Started process (PID=46883) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:52:58.495+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:52:58.496+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:52:58.496+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:52:58.526+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:52:58.544+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:52:58.544+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:52:58.561+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:52:58.560+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:52:58.575+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.086 seconds
+[2024-12-07T19:53:28.637+0000] {processor.py:186} INFO - Started process (PID=46948) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:53:28.638+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:53:28.640+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:53:28.639+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:53:28.660+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:53:28.679+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:53:28.679+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:53:28.695+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:53:28.695+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:53:28.710+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.078 seconds
+[2024-12-07T19:53:59.054+0000] {processor.py:186} INFO - Started process (PID=47012) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:53:59.055+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:53:59.057+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:53:59.056+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:53:59.079+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:53:59.098+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:53:59.097+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:53:59.117+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:53:59.116+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:53:59.137+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.088 seconds
+[2024-12-07T19:54:29.899+0000] {processor.py:186} INFO - Started process (PID=47076) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:54:29.900+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:54:29.902+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:54:29.901+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:54:29.926+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:54:29.946+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:54:29.946+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:54:29.967+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:54:29.967+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:54:29.985+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.091 seconds
+[2024-12-07T19:55:00.909+0000] {processor.py:186} INFO - Started process (PID=47140) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:55:00.910+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:55:00.912+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:55:00.911+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:55:00.936+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:55:00.952+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:55:00.951+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:55:00.967+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:55:00.967+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:55:00.984+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.080 seconds
+[2024-12-07T19:55:31.876+0000] {processor.py:186} INFO - Started process (PID=47204) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:55:31.878+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:55:31.880+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:55:31.880+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:55:31.921+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:55:31.948+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:55:31.947+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:55:31.973+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:55:31.973+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:55:31.997+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.130 seconds
+[2024-12-07T19:56:02.306+0000] {processor.py:186} INFO - Started process (PID=47268) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:56:02.307+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:56:02.309+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:56:02.308+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:56:02.330+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:56:02.346+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:56:02.345+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:56:02.361+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:56:02.360+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:56:02.377+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.076 seconds
+[2024-12-07T19:56:33.036+0000] {processor.py:186} INFO - Started process (PID=47332) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:56:33.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:56:33.039+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:56:33.038+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:56:33.074+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:56:33.090+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:56:33.090+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:56:33.107+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:56:33.107+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:56:33.126+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.096 seconds
+[2024-12-07T19:57:03.858+0000] {processor.py:186} INFO - Started process (PID=47396) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:57:03.859+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:57:03.860+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:57:03.860+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:57:03.896+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:57:03.927+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:57:03.927+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:57:03.948+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:57:03.948+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:57:03.966+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.114 seconds
+[2024-12-07T19:57:34.029+0000] {processor.py:186} INFO - Started process (PID=47460) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:57:34.030+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:57:34.031+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:57:34.031+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:57:34.056+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:57:34.071+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:57:34.071+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:57:34.086+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:57:34.086+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:57:34.101+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.077 seconds
+[2024-12-07T19:58:04.356+0000] {processor.py:186} INFO - Started process (PID=47524) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:58:04.358+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:58:04.360+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:58:04.359+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:58:04.404+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:58:04.422+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:58:04.422+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:58:04.439+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:58:04.439+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:58:04.460+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.111 seconds
+[2024-12-07T19:58:35.372+0000] {processor.py:186} INFO - Started process (PID=47588) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:58:35.373+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:58:35.374+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:58:35.374+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:58:35.398+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:58:35.414+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:58:35.413+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:58:35.430+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:58:35.430+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:58:35.452+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.084 seconds
+[2024-12-07T19:59:06.161+0000] {processor.py:186} INFO - Started process (PID=47652) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:59:06.163+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:59:06.164+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:59:06.164+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:59:06.186+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:59:06.204+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:59:06.203+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:59:06.221+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:59:06.221+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:59:06.241+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.084 seconds
+[2024-12-07T19:59:36.357+0000] {processor.py:186} INFO - Started process (PID=47716) to work on /opt/airflow/dags/main.py
+[2024-12-07T19:59:36.358+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T19:59:36.360+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:59:36.360+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T19:59:36.383+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T19:59:36.400+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:59:36.400+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T19:59:36.415+0000] {logging_mixin.py:190} INFO - [2024-12-07T19:59:36.415+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T19:59:36.433+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.080 seconds
+[2024-12-07T20:00:06.639+0000] {processor.py:186} INFO - Started process (PID=47780) to work on /opt/airflow/dags/main.py
+[2024-12-07T20:00:06.640+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T20:00:06.642+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:00:06.641+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T20:00:06.664+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T20:00:06.678+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:00:06.678+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T20:00:06.694+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:00:06.694+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T20:00:06.712+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.077 seconds
+[2024-12-07T20:00:36.886+0000] {processor.py:186} INFO - Started process (PID=47844) to work on /opt/airflow/dags/main.py
+[2024-12-07T20:00:36.887+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T20:00:36.888+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:00:36.888+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T20:00:36.907+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T20:00:36.924+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:00:36.924+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T20:00:36.940+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:00:36.940+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T20:00:36.956+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.074 seconds
+[2024-12-07T20:01:07.728+0000] {processor.py:186} INFO - Started process (PID=47908) to work on /opt/airflow/dags/main.py
+[2024-12-07T20:01:07.729+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T20:01:07.731+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:01:07.730+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T20:01:07.752+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T20:01:07.768+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:01:07.768+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T20:01:07.784+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:01:07.784+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T20:01:07.801+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.076 seconds
+[2024-12-07T20:01:38.718+0000] {processor.py:186} INFO - Started process (PID=47972) to work on /opt/airflow/dags/main.py
+[2024-12-07T20:01:38.719+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T20:01:38.720+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:01:38.720+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T20:01:38.757+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T20:01:38.775+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:01:38.775+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T20:01:38.792+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:01:38.792+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T20:01:38.809+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.096 seconds
+[2024-12-07T20:02:09.295+0000] {processor.py:186} INFO - Started process (PID=48037) to work on /opt/airflow/dags/main.py
+[2024-12-07T20:02:09.296+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T20:02:09.297+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:02:09.297+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T20:02:09.333+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T20:02:09.351+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:02:09.351+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T20:02:09.369+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:02:09.369+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T20:02:09.384+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.094 seconds
+[2024-12-07T20:02:40.307+0000] {processor.py:186} INFO - Started process (PID=48101) to work on /opt/airflow/dags/main.py
+[2024-12-07T20:02:40.308+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T20:02:40.309+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:02:40.309+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T20:02:40.329+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T20:02:40.345+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:02:40.345+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T20:02:40.362+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:02:40.361+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T20:02:40.384+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.081 seconds
+[2024-12-07T20:03:10.562+0000] {processor.py:186} INFO - Started process (PID=48165) to work on /opt/airflow/dags/main.py
+[2024-12-07T20:03:10.563+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T20:03:10.564+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:03:10.564+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T20:03:10.585+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T20:03:10.602+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:03:10.602+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T20:03:10.617+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:03:10.617+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T20:03:10.636+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.080 seconds
+[2024-12-07T20:03:41.053+0000] {processor.py:186} INFO - Started process (PID=48230) to work on /opt/airflow/dags/main.py
+[2024-12-07T20:03:41.054+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T20:03:41.055+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:03:41.055+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T20:03:41.082+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T20:03:41.101+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:03:41.100+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T20:03:41.119+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:03:41.119+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T20:03:41.137+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.089 seconds
+[2024-12-07T20:04:11.711+0000] {processor.py:186} INFO - Started process (PID=48294) to work on /opt/airflow/dags/main.py
+[2024-12-07T20:04:11.712+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T20:04:11.714+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:04:11.713+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T20:04:11.738+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T20:04:11.758+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:04:11.758+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T20:04:11.777+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:04:11.776+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T20:04:11.793+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.087 seconds
+[2024-12-07T20:04:42.585+0000] {processor.py:186} INFO - Started process (PID=48358) to work on /opt/airflow/dags/main.py
+[2024-12-07T20:04:42.586+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T20:04:42.588+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:04:42.587+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T20:04:42.611+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T20:04:42.627+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:04:42.626+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T20:04:42.643+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:04:42.643+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T20:04:42.658+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.077 seconds
+[2024-12-07T20:05:13.527+0000] {processor.py:186} INFO - Started process (PID=48422) to work on /opt/airflow/dags/main.py
+[2024-12-07T20:05:13.528+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T20:05:13.530+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:05:13.529+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T20:05:13.550+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T20:05:13.569+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:05:13.568+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T20:05:13.588+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:05:13.588+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T20:05:13.610+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.087 seconds
+[2024-12-07T20:05:44.190+0000] {processor.py:186} INFO - Started process (PID=48486) to work on /opt/airflow/dags/main.py
+[2024-12-07T20:05:44.192+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T20:05:44.195+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:05:44.194+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T20:05:44.232+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T20:05:44.255+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:05:44.254+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T20:05:44.280+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:05:44.280+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T20:05:44.302+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.120 seconds
+[2024-12-07T20:06:15.149+0000] {processor.py:186} INFO - Started process (PID=48550) to work on /opt/airflow/dags/main.py
+[2024-12-07T20:06:15.150+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T20:06:15.151+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:06:15.151+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T20:06:15.172+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T20:06:15.189+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:06:15.189+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T20:06:15.208+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:06:15.208+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T20:06:15.224+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.080 seconds
+[2024-12-07T20:06:45.998+0000] {processor.py:186} INFO - Started process (PID=48620) to work on /opt/airflow/dags/main.py
+[2024-12-07T20:06:45.999+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T20:06:46.000+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:06:46.000+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T20:06:46.027+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T20:06:46.043+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:06:46.043+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T20:06:46.058+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:06:46.058+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T20:06:46.076+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.083 seconds
+[2024-12-07T20:07:16.219+0000] {processor.py:186} INFO - Started process (PID=48684) to work on /opt/airflow/dags/main.py
+[2024-12-07T20:07:16.220+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T20:07:16.221+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:07:16.221+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T20:07:16.244+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T20:07:16.259+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:07:16.259+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T20:07:16.275+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:07:16.275+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T20:07:16.291+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.077 seconds
+[2024-12-07T20:07:46.984+0000] {processor.py:186} INFO - Started process (PID=48748) to work on /opt/airflow/dags/main.py
+[2024-12-07T20:07:46.985+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T20:07:46.987+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:07:46.986+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T20:07:47.014+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T20:07:47.029+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:07:47.029+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T20:07:47.045+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:07:47.045+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T20:07:47.061+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.080 seconds
+[2024-12-07T20:08:17.527+0000] {processor.py:186} INFO - Started process (PID=48812) to work on /opt/airflow/dags/main.py
+[2024-12-07T20:08:17.528+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T20:08:17.530+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:08:17.529+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T20:08:17.551+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T20:08:17.567+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:08:17.566+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T20:08:17.583+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:08:17.583+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T20:08:17.600+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.078 seconds
+[2024-12-07T20:08:48.334+0000] {processor.py:186} INFO - Started process (PID=48876) to work on /opt/airflow/dags/main.py
+[2024-12-07T20:08:48.336+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2024-12-07T20:08:48.338+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:08:48.337+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2024-12-07T20:08:48.374+0000] {processor.py:925} INFO - DAG(s) 'medal_count_dag' retrieved from /opt/airflow/dags/main.py
+[2024-12-07T20:08:48.403+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:08:48.403+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-07T20:08:48.429+0000] {logging_mixin.py:190} INFO - [2024-12-07T20:08:48.429+0000] {dag.py:4180} INFO - Setting next_dagrun for medal_count_dag to 2024-12-07 00:00:00+00:00, run_after=2024-12-08 00:00:00+00:00
+[2024-12-07T20:08:48.464+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.143 seconds

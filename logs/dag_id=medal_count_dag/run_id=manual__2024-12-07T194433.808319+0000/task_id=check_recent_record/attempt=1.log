@@ -1,0 +1,262 @@
+[2024-12-07T19:45:21.707+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-07T19:45:21.719+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: medal_count_dag.check_recent_record manual__2024-12-07T19:44:33.808319+00:00 [queued]>
+[2024-12-07T19:45:21.725+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: medal_count_dag.check_recent_record manual__2024-12-07T19:44:33.808319+00:00 [queued]>
+[2024-12-07T19:45:21.726+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-07T19:45:21.736+0000] {taskinstance.py:2889} INFO - Executing <Task(SqlSensor): check_recent_record> on 2024-12-07 19:44:33.808319+00:00
+[2024-12-07T19:45:21.743+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=5002) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-07T19:45:21.744+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'medal_count_dag', 'check_recent_record', 'manual__2024-12-07T19:44:33.808319+00:00', '--job-id', '53', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmp4fv4wvu5']
+[2024-12-07T19:45:21.745+0000] {standard_task_runner.py:72} INFO - Started process 5004 to run task
+[2024-12-07T19:45:21.746+0000] {standard_task_runner.py:105} INFO - Job 53: Subtask check_recent_record
+[2024-12-07T19:45:21.778+0000] {task_command.py:467} INFO - Running <TaskInstance: medal_count_dag.check_recent_record manual__2024-12-07T19:44:33.808319+00:00 [running]> on host a693d8a2436c
+[2024-12-07T19:45:21.983+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='medal_count_dag' AIRFLOW_CTX_TASK_ID='check_recent_record' AIRFLOW_CTX_EXECUTION_DATE='2024-12-07T19:44:33.808319+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-07T19:44:33.808319+00:00'
+[2024-12-07T19:45:21.984+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-07T19:45:21.985+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-07T19:45:21.987+0000] {logging_mixin.py:190} INFO - Current task name:check_recent_record state:running start_date:2024-12-07 19:45:21.720421+00:00
+[2024-12-07T19:45:21.988+0000] {logging_mixin.py:190} INFO - Dag name:medal_count_dag and current dag run status:running
+[2024-12-07T19:45:21.989+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-07T19:45:21.996+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:45:21.998+0000] {sql.py:101} INFO - Poking: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+     (with parameters None)
+[2024-12-07T19:45:22.003+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:45:22.224+0000] {sql.py:544} INFO - Running statement: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+    , parameters: None
+[2024-12-07T19:45:22.270+0000] {sql.py:553} INFO - Rows affected: 1
+[2024-12-07T19:45:27.321+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:45:27.322+0000] {sql.py:101} INFO - Poking: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+     (with parameters None)
+[2024-12-07T19:45:27.327+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:45:27.545+0000] {sql.py:544} INFO - Running statement: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+    , parameters: None
+[2024-12-07T19:45:27.590+0000] {sql.py:553} INFO - Rows affected: 1
+[2024-12-07T19:45:32.640+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:45:32.641+0000] {sql.py:101} INFO - Poking: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+     (with parameters None)
+[2024-12-07T19:45:32.648+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:45:32.869+0000] {sql.py:544} INFO - Running statement: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+    , parameters: None
+[2024-12-07T19:45:32.915+0000] {sql.py:553} INFO - Rows affected: 1
+[2024-12-07T19:45:37.966+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:45:37.967+0000] {sql.py:101} INFO - Poking: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+     (with parameters None)
+[2024-12-07T19:45:37.972+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:45:38.179+0000] {sql.py:544} INFO - Running statement: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+    , parameters: None
+[2024-12-07T19:45:38.222+0000] {sql.py:553} INFO - Rows affected: 1
+[2024-12-07T19:45:43.275+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:45:43.276+0000] {sql.py:101} INFO - Poking: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+     (with parameters None)
+[2024-12-07T19:45:43.282+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:45:43.497+0000] {sql.py:544} INFO - Running statement: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+    , parameters: None
+[2024-12-07T19:45:43.542+0000] {sql.py:553} INFO - Rows affected: 1
+[2024-12-07T19:45:48.593+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:45:48.594+0000] {sql.py:101} INFO - Poking: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+     (with parameters None)
+[2024-12-07T19:45:48.599+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:45:48.816+0000] {sql.py:544} INFO - Running statement: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+    , parameters: None
+[2024-12-07T19:45:48.864+0000] {sql.py:553} INFO - Rows affected: 1
+[2024-12-07T19:45:53.916+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:45:53.917+0000] {sql.py:101} INFO - Poking: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+     (with parameters None)
+[2024-12-07T19:45:53.923+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:45:54.130+0000] {sql.py:544} INFO - Running statement: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+    , parameters: None
+[2024-12-07T19:45:54.174+0000] {sql.py:553} INFO - Rows affected: 1
+[2024-12-07T19:45:59.222+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:45:59.222+0000] {sql.py:101} INFO - Poking: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+     (with parameters None)
+[2024-12-07T19:45:59.227+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:45:59.434+0000] {sql.py:544} INFO - Running statement: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+    , parameters: None
+[2024-12-07T19:45:59.477+0000] {sql.py:553} INFO - Rows affected: 1
+[2024-12-07T19:46:04.526+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:46:04.527+0000] {sql.py:101} INFO - Poking: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+     (with parameters None)
+[2024-12-07T19:46:04.533+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:46:04.751+0000] {sql.py:544} INFO - Running statement: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+    , parameters: None
+[2024-12-07T19:46:04.794+0000] {sql.py:553} INFO - Rows affected: 1
+[2024-12-07T19:46:09.845+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:46:09.846+0000] {sql.py:101} INFO - Poking: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+     (with parameters None)
+[2024-12-07T19:46:09.852+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:46:10.076+0000] {sql.py:544} INFO - Running statement: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+    , parameters: None
+[2024-12-07T19:46:10.121+0000] {sql.py:553} INFO - Rows affected: 1
+[2024-12-07T19:46:15.177+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:46:15.178+0000] {sql.py:101} INFO - Poking: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+     (with parameters None)
+[2024-12-07T19:46:15.185+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:46:15.407+0000] {sql.py:544} INFO - Running statement: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+    , parameters: None
+[2024-12-07T19:46:15.452+0000] {sql.py:553} INFO - Rows affected: 1
+[2024-12-07T19:46:20.507+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:46:20.509+0000] {sql.py:101} INFO - Poking: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+     (with parameters None)
+[2024-12-07T19:46:20.516+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:46:20.740+0000] {sql.py:544} INFO - Running statement: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+    , parameters: None
+[2024-12-07T19:46:20.787+0000] {sql.py:553} INFO - Rows affected: 1
+[2024-12-07T19:46:25.839+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:46:25.839+0000] {sql.py:101} INFO - Poking: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+     (with parameters None)
+[2024-12-07T19:46:25.844+0000] {base.py:84} INFO - Retrieving connection 'goit_mysql_db_volodymyrdubrovskyi'
+[2024-12-07T19:46:26.061+0000] {sql.py:544} INFO - Running statement: 
+    SELECT COUNT(*) 
+    FROM medal_count_vvd 
+    WHERE created_at >= NOW() - INTERVAL 30 SECOND;
+    , parameters: None
+[2024-12-07T19:46:26.107+0000] {sql.py:553} INFO - Rows affected: 1
+[2024-12-07T19:46:26.151+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/sensors/base.py", line 323, in execute
+    raise AirflowSensorTimeout(message)
+airflow.exceptions.AirflowSensorTimeout: Sensor has timed out; run duration of 64.16387799599761 seconds exceeds the specified timeout of 60.0.
+[2024-12-07T19:46:26.160+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-12-07T19:46:26.161+0000] {logging_mixin.py:190} INFO - Task start:2024-12-07 19:45:21.720421+00:00 end:2024-12-07 19:46:26.160374+00:00 duration:64.439953
+[2024-12-07T19:46:26.162+0000] {logging_mixin.py:190} INFO - Task:<Task(SqlSensor): check_recent_record> dag:<DAG: medal_count_dag> dagrun:<DagRun medal_count_dag @ 2024-12-07 19:44:33.808319+00:00: manual__2024-12-07T19:44:33.808319+00:00, state:running, queued_at: 2024-12-07 19:44:33.818648+00:00. externally triggered: True>
+[2024-12-07T19:46:26.162+0000] {logging_mixin.py:190} INFO - Failure caused by Sensor has timed out; run duration of 64.16387799599761 seconds exceeds the specified timeout of 60.0.
+[2024-12-07T19:46:26.163+0000] {taskinstance.py:1225} INFO - Immediate failure requested. Marking task as FAILED. dag_id=medal_count_dag, task_id=check_recent_record, run_id=manual__2024-12-07T19:44:33.808319+00:00, execution_date=20241207T194433, start_date=20241207T194521, end_date=20241207T194626
+[2024-12-07T19:46:26.172+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-07T19:46:26.173+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 53 for task check_recent_record (Sensor has timed out; run duration of 64.16387799599761 seconds exceeds the specified timeout of 60.0.; 5004)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/sensors/base.py", line 323, in execute
+    raise AirflowSensorTimeout(message)
+airflow.exceptions.AirflowSensorTimeout: Sensor has timed out; run duration of 64.16387799599761 seconds exceeds the specified timeout of 60.0.
+[2024-12-07T19:46:26.222+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-12-07T19:46:26.238+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-07T19:46:26.242+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
